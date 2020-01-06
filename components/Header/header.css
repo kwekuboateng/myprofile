@@ -1,0 +1,218 @@
+.head{ 
+    width: 265px;
+    max-height: 620px;
+    min-height: 620px;
+    background: #4a63e7;
+    margin: 40px;
+    margin-right: 20px;
+    top: 50px;
+    transform: translateX(0);
+    overflow: hidden;
+    position: fixed;
+    border-radius: 20px;
+    box-shadow: 0px 6px 15px 0px rgba(0,0,0,.2);
+    float: left;
+  }
+
+  .alignItemsStart {
+      align-items: flex-start!important;
+  }
+
+  .flex-column{
+      flex-direction: column!important;
+  }
+
+  header nav{
+      margin-top: 40px;
+  }
+
+  header .headInner{
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px;
+    position: absolute;
+  }
+
+  header .vertMenu{
+      font-size: 14px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  header .vertMenu li{
+      line-height: 2.5;
+      position: relative;
+  }
+
+  header .vertMenu li a {
+      display: inline-block;
+      margin-left: 0;
+      padding: 0;
+      transition: all .3s ease-in-out;
+  }
+
+  header .vertMenu li a.active:before {
+    content: "";
+    background: #ff5959;
+    display: block;
+    height: 18px;
+    left: -30px;
+    top: 7px;
+    position: absolute;
+    width: 3px;
+}
+
+  header a {
+      color: #ffffff;
+  }
+
+header span {
+    color: #ffffff
+}
+
+header .myTitle{
+    font-size: 12px;
+    text-transform: uppercase;
+} 
+
+  a {
+      text-decoration: none;
+      background-color: transparent;
+      outline: 0;
+      cursor: pointer;
+  }
+
+  header .vertMenu svg {
+      margin-right: 20px;
+      font-style: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+  }
+
+  img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+      border-style: none;
+  }
+
+  header img{
+      width: 70px;
+      height: 70px;
+      border-radius: 100px;
+  }
+
+  header .myName{
+      display: block;
+      font-size: 25px;
+      font-weight: 500;
+      margin-top: 20px;
+  }
+
+  .mt3, .my3 {
+    margin-top: 1rem!important;
+}
+
+.listInline{
+    padding-left: 0;
+    list-style: none;
+}
+
+.socialIcons{
+    display: flex;
+}
+
+.socialIcons svg{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.marR{
+    margin-right: 15px;
+}
+
+.pl3, .px3 {
+    padding-left: 1rem!important;
+}
+
+.pr3, .px3 {
+    padding-right: 1rem!important;
+}
+
+.pb2, .py2 {
+    padding-bottom: .5rem!important;
+}
+
+.pt2, .py2 {
+    padding-top: .5rem!important;
+}
+
+.mt4, .my4 {
+    margin-top: 1.5rem!important;
+}
+
+.mr2, .mx2 {
+    margin-right: .5rem!important;
+}
+
+.ml2, .mx2 {
+    margin-left: .5rem!important;
+}
+
+.mobileHeader {
+    background: #4a63e7;
+    border-radius: 30px;
+    display: none;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.mobileHeader button.menuIcon {
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    outline: none;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.mobileHeader button.menuIcon span {
+    background: #fff;
+    border-radius: 10px;
+    display: block;
+    height: 4px;
+    width: 25px;
+    margin-bottom: 5px
+}
+
+.mobileHeader .myName {
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.mobileHeader a {
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 991px){
+    .mobileHeader {
+        display: block;
+    }
+    .head {
+        display: none;
+    }
+  }

@@ -1,3 +1,6 @@
+import Link from 'next/link';
+
+
 const PostLink = props => (
     <li>
       <Link href={`/post?title=${props.title}`}>

@@ -1,11 +1,11 @@
-import Layout from "../comps/MyLayout";
+import Layout from "../components/MyLayout";
+import css from "../styles.css";
+import ContentCard from '../components/contentCard'
 
-const index = () => (
-    <div>
-        <Layout>
+const About = () => (
+    <ContentCard >
             <p>This is about page</p>
-        </Layout>
-    </div>
+    </ContentCard>
 );
 
-export default index;
+export default About;
